@@ -1,109 +1,167 @@
-div{
-    display: inline-block;
+.container {
+    max-width: 1150px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header h5 {
+    color: #5863E3;
+    font-size: 17px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 57px;
 }
 p{
-
-    color: #5863e3;
-    width: 64px;
+    display: flex;
+    width: 226px;
     height: 20px;
-    margin-top: 57px;
-    margin-left: 144px;
-    font-weight: 700;
-    font-size: 17px;
-    line-height: 19.55px;
-}
-.p1{
-    color: #000000;
-    font-size:49px ;
-    font-weight:400 ;
-    margin-top: 7px;
-    width: 548px;
-    height: 112px;
-    line-height: 56.35px;
-    
-}
-.box{
-    border: 2px solid gray;
-    box-sizing: border-box;
-    width: 756px;
-    height: 315px;
-    margin-left: 144px;
-    margin-top: 53px;
-    padding-left: 20px;
-    padding-bottom: 250px;
-
-}
-
-.boxx1{
-    width:370px;
-    height: 59px;
-    margin-left: 20px;
-    margin-top: 33px;
-}
-    
-.box1{
-    width:370px;
-    height: 59px;
-    margin-top: 20px; 
-}
-.se2{
-    display: flex;
-}
-.boxx{
-    width:378px;
-    height: 59px;
-    margin-top: 20px;
-    background: rgba(89, 104, 244, 1);
-    color: white;
-}
-.logo1{
-
-    width: 68px ;
-    height: 68px;
-    background-color:  rgba(89, 104, 244, 1);
-    border-radius: 50%;
-    margin-left: 288px;
-    margin-top: 51px;  
-}
-.logo11{
-   margin-top: 19px;
-   margin-left: 14px;
-}
-h1{
-    margin-left: 14px;
-    margin-top: 36px;
-}
-h2{
-    margin-left: -30px;
-    margin-top: 8px;
-    width: 200px;
-}
-.logo12{
-    margin-top: 12px;
-    margin-left: 8px;
- }
- .logo13{
-    margin-top: 14px;
-    margin-left: 22px;
- }
- .p11{
-    margin-top: 282px;
- }
- .image{
-    width: 373px;
-    height: 373px;
-    margin-left: 70px;
-    margin-top: 53px;
- }
- .image1{
-    width: 373px;
-    height: 373px;
-    margin-top: 53px;
     margin-left: 100px;
- }
- .dididivi{ 
+}
+
+.header h2 {
+    color: #000;
+    font-size: 49px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 371px;
+    margin-top: 7px;
+}
+
+.form-container {
+    margin-top: 57px;
+}
+
+form {
+    width: 100%;
     display: flex;
-    width: 1440px;
+    justify-content: space-between;
+}
+
+textarea {
+    width: 756px;
+    height: 298px;
+    border: 2px solid rgba(212, 211, 211, 0.30);
+    background: #F8F8F8;
+    padding: 23px 21px;
+    box-sizing: border-box;
+}
+
+input[type="text"] {
+    width: 100%;
+    height: 59px;
+    border: 2px solid rgba(212, 211, 211, 0.30);
+    background: #F8F8F8;
+    margin-bottom: 20px;
+    padding: 21px 19px;
+    box-sizing: border-box;
+    margin-left: 20px;
+}
+
+input[type=submit]{
+    width: 100%;
+    height: 59px;
+    border: 2px solid #5968F4;
+    background: #5968F4;
+    color: #FBFBFF;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.inputs {
+    width: 370px;
+}
+
+.icon {
+    height: 68px;
+    width: 68px;
+    border-radius: 50%;
+    background: #5968F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-envelope {
+    font-size: 38px;
+    color: #344188;
+}
+
+.fa-phone {
+    font-size: 38px;
+    color: #344188;
+}
+
+.fa-location-dot {
+    font-size: 38px;
+    color: #344188;
+}
+
+
+.contact-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 51px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact h3 {
+    color: #4E4D54;
+    font-size: 20px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.contact p {
+    color: #99999A;
+    font-size: 15px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.sec-2 {
+    margin-top: 100px;
+}
+
+.sec-2 h2{
+    width: 548px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 53px;
+    margin-bottom: 100px;
+}
+.footer{
+    display: flex;
+    background-color: #000;
+    width: 100%;
+    height: 372px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.big-container{
+    display: flex;
+    width: 1450px;
     height: 372px;
     background-color: #000000;
     margin-top: 39px;

@@ -3,77 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="style/reset.css" />
-    <link rel="stylesheet" href="style/style.css" />
-    <link rel="stylesheet" href="style/media.css" />
     <title>HTML</title>
+
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media.css">
 </head>
 <body>
-        <header>
-            <div class="container">
-            <P>Contact</P>
-            <p class="p1">Contact us to get free support</p>
+    <section class="container">
+        <div class="header">    
+            <h5>Contact</h5>
+            <h2>Contact us to get free support</h2>
         </div>
-    </header>
-    <section class="se2">
-        <div class="text-area">
-            <form action="/action_page.php">
-                <textarea class="box" type="tel" name="phone" placeholder="Description"></textarea>
-              </form>
+        <div class="form-container">
+            <form>
+                <div class="textarea">
+                    <textarea placeholder="description" name="description" id="description"></textarea>
+                </div>
+                <div class="inputs">
+                    <input placeholder="subject"      type="text" name="subject" id="subject">
+                    <input placeholder="name/surname" type="text" name="name"    id="name">
+                    <input placeholder="email"        type="text" name="email"   id="email">
+                    <input type="submit" value="send">
+                </div> 
+            </form>
         </div>
-        <div class="boxx1">
-            <form action="/action_page.php">
-                <input class="box1" type="tel" name="phone" placeholder="Subject">
-              </form>
-            <form action="/action_page.php">
-                <input class="box1" type="tel" name="phone" placeholder="Name / Surname">
-              </form>
-              <form action="/action_page.php">
-                <input class="box1" type="tel" name="phone" placeholder="Email">
-              </form>
-              <button class="boxx"  type="submit" value="Submit">send</button>
+
+        <div class="contact-container">
+            <div class="contact">
+                <div class="icon">
+                    <img src="image/Frame.svg" alt="frame1">
+                </div>
+                <h3>Email</h3>
+                <p>education@yahoo.edu.ge</p>
+                <p>edu.e.education@yahoo.edu.ge</p>
+            </div>
+            <div class="contact">
+                <div class="icon">
+                    <img src="image/Phone 2.svg" alt="frame2">
+                </div>
+                <h3>Phone</h3>
+                <p>+995 591 66 6456</p>
+                <p>+995 591 66 6876</p>
+            </div>
+            <div class="contact">
+                <div class="icon">
+                    <img src="image/Frame3.svg" alt="frame3">
+                </div>
+                <h3>Location</h3>
+                <p>eMail str, Chicago iinois</p>
+                <p>Main street, New York City</p>
+            </div>
         </div>
-        </section>
-        <section class="se2">
-        <div class="ddd">
-        <div class="logo1">
-            <img class="logo11" src="image/Frame.svg" alt="logo1">
-            <h6>Email</h6>
-            <h2>education@yahoo.edu.ge</h2>
-            <h2>edu.e.education@yahoo.edu.ge</h2>
+    </section> 
+
+
+    <section class="sec-2">
+        <div class="header container">    
+            <h5>Photos</h5>
+            <h2>See our latest photos from restaurant and hotel </h2>
         </div>
-        <div class="logo1">
-            <img class="logo12" src="image/Phone 2.svg" alt="logo2">
-            <h6>Phone</h6>
-            <h2>+995 591 66 6456</h2>
-            <h2>+995 591 66 6876</h2>
-        </div>
-        <div class="logo1">
-            <img class="logo13" src="image/Frame3.svg" alt="logo3">
-            <h6>Location</h6>
-            <h2>Mail str, Chicago iinois</h2>
-            <h2>Main street, New York City</h2>
-        </div>
-    </div>
-</section>
-    </section>
-    <section>
-        <div>
-            <P class="p11">Photos</P>
-            <p class="p1">See our latest photos
-                from restaurant and hotel </p>
-        </div>
-    </section>
-    <section>
-        <div class="eee">
-            <img class="image" src="image/Rectangle 6.jpg" alt="rectangle6">
-            <img class="image1" src="image/Rectangle 7.jpg" alt="rect 7">
-            <img class="image1" src="image/Rectangle 8.jpg" alt="rect 8"> 
+
+        <div class="images">
+            <img class="img" src="image/Rectangle 6.jpg" alt="img6">
+            <img class="img" src="image/Rectangle 7.jpg" alt="img7">
+            <img class="img" src="image/Rectangle 8.jpg" alt="img8">
         </div>
     </section>
-    <section>
-        <div class="dididivi">
+
+    <footer>
+        <div class="big-container">
             <div>
                 <h1>Zwtta Hotels</h1>
                 <h4>Our hotel in on teh huge quality
@@ -107,6 +109,9 @@
                 <img class="logoimage1" src="image/Frame3.svg" alt="frame4"><h5>Main str. Chicago Illinois</h5>
             </div>
         </div>
-    </section>
+
+       
+    
+    </footer>
 </body>
 </html>
